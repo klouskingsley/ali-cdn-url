@@ -24,7 +24,6 @@
     "sort-object": "^3.0.2"
   },
   "devDependencies": {
-    "mocha": "^4.0.1",
-    "open": "0.0.5"
+    "mocha": "^4.0.1"
   }
 }

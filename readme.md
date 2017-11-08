@@ -1,6 +1,6 @@
-# ali-cdn-url [!]
+# ali-cdn-url [![Build Status](https://travis-ci.org/klouskingsley/ali-cdn-url.svg?branch=master)](https://travis-ci.org/klouskingsley/ali-cdn-url)
 
-> 获取阿里云cdn调用地址 [阿里云cdn调用方式](https://help.aliyun.com/document_detail/27149.html?spm=5176.doc27148.6.615.NxLUYf)
+> 获取阿里云cdn请求地址 [阿里云cdn调用方式](https://help.aliyun.com/document_detail/27149.html?spm=5176.doc27148.6.615.NxLUYf)
 
 
 ## Install
@@ -39,6 +39,7 @@ const url = getRequestUrl(pubArgs, otherArgs)
 ##### pubArgs
 
 Type: `Object`
+
 Default: `none`
 
 调用cdn时的公共参数，包括`AccessKeyId`和`AccessKeySecret`当参数
@@ -46,10 +47,11 @@ Default: `none`
 ##### otherArgs
 
 Type: `Object`
+
 Default: `none`
 
 调用cdn时不同接口特有的参数，其中`Action`是必须的
 
 ## License
 
-MIT © [klouskingsley](http://harrytse.com)
+MIT © [klouskingsley](http://blog.harrytse.com)
