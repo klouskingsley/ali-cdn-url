@@ -1,6 +1,6 @@
 {
   "name": "ali-cdn-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get ali cdn request url",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,14 @@
     "alicloud"
   ],
   "author": "klouskingsley",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klouskingsley/ali-cdn-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klouskingsley/ali-cdn-url/issues"
+  },
+  "homepage": "https://github.com/klouskingsley/ali-cdn-url#readme",
   "license": "MIT",
   "dependencies": {
     "query-string": "^5.0.1",
